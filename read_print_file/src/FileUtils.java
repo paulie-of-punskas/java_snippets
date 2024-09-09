@@ -6,7 +6,7 @@ import java.util.List;
 
 public class FileUtils {
     public void printFileContent(String file_path) {
-        // Method checks if exists and prints it. Otherwise, prints `false`.
+        // Method checks if file exists and prints it. Otherwise, prints `false`.
         Path path = Paths.get(file_path);
         if (Files.exists(path)) {
             try {
