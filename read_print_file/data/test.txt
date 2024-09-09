@@ -1,0 +1,2 @@
+Line one from a file
+Line two. Third line will not be read as it's EOF.
